@@ -1,0 +1,11 @@
+app:
+  camel:
+    sample:
+      path-uri: file:/Users/elijahedih/dev/java/cib-file-reader/testfolder?preMove=inprogress&move=.done&moveFailed=error&maxMessagesPerPoll=100
+
+spring:
+  datasource:
+    username: xx
+    password: xxx
+    url: jdbc:sybase:Tds:172.29.12.12:6100/TEST?charset=cp850
+    driver-class-name: com.sybase.jdbc3.jdbc.SybDriver
